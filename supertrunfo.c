@@ -3,26 +3,26 @@
 int main(){
 char estado1[50];
 char nomecidade1[50];
- int população1 ;
- float área1;
+ int populacao1 ;
+ float area1;
 float pib1;
  int ponto1;
 
 
 
  printf("digite o estado:");
- scanf("%s", &estado1);
+ scanf("%s", estado1);
 
  printf("o nome da cidade:");
- scanf("%s", &nomecidade1);
+ scanf("%s", nomecidade1);
 
 
 
  printf("população: ");
- scanf("%d",  &população1);
+ scanf("%d",  &populacao1);
 
  printf ("Área em km: ");
- scanf ("%e", &área1);
+ scanf ("%e", &area1);
 
  printf ("PIB: ");
  scanf ("%e", &pib1);
@@ -39,8 +39,8 @@ float pib1;
 
 printf ("estado: %s \n",estado1 );
 printf ("cidade: %s\n",nomecidade1);
-printf ("população: %d \n",população1);
-printf ("Área em km: %e \n",área1);
+printf ("população: %d \n",populacao1);
+printf ("Área em km: %e \n",area1);
 printf ("pib: %e \n",pib1);
 printf ("número de ponto turístico: %d\n",ponto1);
 
@@ -55,10 +55,10 @@ float pib2;
 
 
  printf("digite o segundo estado:");
- scanf("%s", &estado2);
+ scanf("%s", estado2);
 
  printf("o nome da cidade:");
- scanf("%s", &nomecidade2);
+ scanf("%s", nomecidade2);
 
  printf("população: ");
  scanf("%d",  &populacao2);
